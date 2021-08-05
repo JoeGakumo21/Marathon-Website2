@@ -1,5 +1,5 @@
 .bannerimage{
-    background-image: url("../images/homePage.jpeg");
+    background-image: url("/assets/Home-Page.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;

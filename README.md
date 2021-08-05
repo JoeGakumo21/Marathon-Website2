@@ -21,7 +21,7 @@ This is a website/platform where people can access opportunities pertaining spor
  
  # Live link 
 access this website using this link 
-<a href="">Marathon Website</a>
+<a href="https://joegakumo21.github.io/Marathon-Website2/">Marathon Website</a>
 
 ## Know Bugs
 so far no bugs on the website

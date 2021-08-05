@@ -110,3 +110,10 @@ body {
   margin-bottom: 20px;
   
 }
+/* Style Container Inspiration */
+#inspiration{
+  background-color: #ccc;
+  padding: 70px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+}

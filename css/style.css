@@ -117,3 +117,16 @@ body {
   /* margin-top: 20px; */
   /* margin-bottom: 20px; */
 }
+.thumbnail{
+  width: 90%;
+  border: 2px solid #ccc;
+  box-shadow: 2px 3px 7px #000 ;
+}
+.thumbnail img{
+  width: 80%;
+  height: 100%; 
+}
+.desc{
+  padding: 15px;
+  background-color: #fff;
+}

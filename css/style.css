@@ -1,3 +1,4 @@
+/* Common css starts here */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
   box-sizing: border-box;
@@ -79,6 +80,34 @@ body {
     display: flex;
   }
 }
+/* Style footer */
+#Contact{
+  background-color: #260631;
+  color: #fff;
+  padding: 20px;
+  
+}
+.media{
+  display: flex;
+
+}
+.media ul{
+  list-style-type: none;
+}
+.media ul li{
+  float: left;
+  margin: 10px;
+}
+.footer{
+background-color: #260631;
+border-top: 1px solid gray;
+color: #fff;
+padding: 10px;
+}
+/* Common css ends here */
+/* ******************************************************************* */
+
+
 
 /* Style Home Section */
 #home{
@@ -146,28 +175,4 @@ body {
   background-color: #F60E0E;
   color: #fff;
   padding: 60px;
-}
-/* Style footer */
-#Contact{
-  background-color: #260631;
-  color: #fff;
-  padding: 20px;
-  
-}
-.media{
-  display: flex;
-
-}
-.media ul{
-  list-style-type: none;
-}
-.media ul li{
-  float: left;
-  margin: 10px;
-}
-.footer{
-background-color: #260631;
-border-top: 1px solid gray;
-color: #fff;
-padding: 10px;
 }

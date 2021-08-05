@@ -1,12 +1,12 @@
 # MARATHON WEBSITE APP
-### develobed by a group of four student from Moringa School namely:
+### developed by a group of four student from Moringa School namely:
 * <a href="#">Joseph Gakumo Munyui</a>
 * <a href="#">Moses Mugo</a>
 * <a href="#">Wanjugu Mung'au</a>
 * <a href="#">Benson Mwaniki</a>
 
 # Description
-This is a website/platform where people can access opportunities pertaining sports and can access those related guidlines as log as they are a member of that website, its also motivates the runners by keeping track of what they expect if they achieve it .
+This is a website/platform where people can access opportunities pertaining sports and can access those related guidlines as long as they are a member of that website, its also motivates the runners by keeping track of what they expect if they achieve it .
 
 # Setup Requirements
 * A chrome browser

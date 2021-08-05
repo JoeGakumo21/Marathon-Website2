@@ -1,81 +1,205 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-style: inherit;
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
 }
+
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#B22222;
-  color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B22222;
+    color: #fff;
 }
+
 .logo {
-  font-size: 18px;
-  margin: .85rem;
+    font-size: 18px;
+    margin: .85rem;
 }
+
 .menu ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+
 .menu li {
-  list-style: none;
+    list-style: none;
 }
+
 .menu li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 14px 16px;
-  display: block;
-}
-.menu li a:hover {
-  background-color: #ccc;
-  color: #000;
-}
-.toggle-button {
-  position: absolute;
-  top: 1.4rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-.toggle-button .bar {
-  height: 14px;
-  width: 100%;
-  margin: 2px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-@media (max-width: 600px) {
-  .toggle-button {
-    display: flex;
-  }
-  .menu {
-    display: none;
-    width: 100%;
-  }
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .menu ul {
-    width: 100%;
-    flex-direction: column;
-  }
-  .menu li {
-    text-align: center;
-  }
-  .menu li a {
+    text-decoration: none;
+    color: #fff;
     padding: 14px 16px;
-  }
-  .menu.active {
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 14px;
+    width: 100%;
+    margin: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+    .menu {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu li {
+        text-align: center;
+    }
+    .menu li a {
+        padding: 14px 16px;
+    }
+    .menu.active {
+        display: flex;
+    }
+}
+
+.activitiescol {
+    flex: auto;
+    padding: 10px;
+}
+
+.activities {
+    background-color: #F60E0EC7;
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.historycol {
+    flex: auto;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+
+ul.donate {
+    list-style-image: url('/assets/images/icons/love.png');
+}
+
+ul.started {
+    list-style-image: url('/assets/images/icons/bulb.png');
+}
+
+ul.race {
+    list-style-image: url('/assets/images/icons/label.png');
+}
+
+ul.founder {
+    list-style-image: url('/assets/images/icons/users.png');
+}
+
+li.list {
+    list-style-type: none;
+}
+
+.Teammember {
+    width: 230px;
+    height: 258px;
+    margin-top: 50px;
+}
+
+.more,
+.team,
+.history {
+    margin-top: 40px;
+}
+
+.moreinfo {
+    background-color: #F60E0EC7;
+    color: white;
+    /* Rectangle 14 */
+    width: 512px;
+    height: 618px;
+    background: rgba(247, 14, 14, 0.78);
+    background-blend-mode: darken;
+    padding: 50px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.sectiontxt {
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.sideimg {
+    width: 512px;
+    height: 618px;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.teamphoto {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#Contact {
+    background-color: #260631;
+    color: #fff;
+    padding: 20px;
+}
+
+.media {
     display: flex;
-  }
+}
+
+.media ul {
+    list-style-type: none;
+}
+
+.media ul li {
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #260631;
+    border-top: 1px solid gray;
+    color: #fff;
+    padding: 10px;
 }

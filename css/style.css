@@ -154,3 +154,20 @@ body {
   padding: 20px;
   
 }
+.media{
+  display: flex;
+
+}
+.media ul{
+  list-style-type: none;
+}
+.media ul li{
+  float: left;
+  margin: 10px;
+}
+.footer{
+background-color: #260631;
+border-top: 1px solid gray;
+color: #fff;
+padding: 10px;
+}

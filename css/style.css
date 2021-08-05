@@ -135,3 +135,9 @@ body {
  padding: 70px;
 
 }
+.left-heading{
+  border-bottom: 10px solid #F60E0E;
+}
+.quote{
+  font-size: 24px;
+}

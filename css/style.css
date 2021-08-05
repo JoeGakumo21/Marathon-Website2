@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#B22222;
+  color: #fff;
+}
+.logo {
+  font-size: 18px;
+  margin: .85rem;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 16px;
+  display: block;
+}
+.menu li a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.toggle-button {
+  position: absolute;
+  top: 1.4rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 14px;
+  width: 100%;
+  margin: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+  .menu {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .menu li {
+    text-align: center;
+  }
+  .menu li a {
+    padding: 14px 16px;
+  }
+  .menu.active {
+    display: flex;
+  }
+}

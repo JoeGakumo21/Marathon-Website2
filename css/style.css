@@ -1,3 +1,89 @@
+.activitiescol {
+    flex: auto;
+    padding: 10px;
+}
+
+.activities {
+    background-color: #F60E0EC7;
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.historycol {
+    flex: auto;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+
+ul.donate {
+    list-style-image: url('/assets/images/icons/love.png');
+}
+
+ul.started {
+    list-style-image: url('/assets/images/icons/bulb.png');
+}
+
+ul.race {
+    list-style-image: url('/assets/images/icons/label.png');
+}
+
+ul.founder {
+    list-style-image: url('/assets/images/icons/users.png');
+}
+
+li.list {
+    list-style-type: none;
+}
+
+.Teammember {
+    width: 230px;
+    height: 258px;
+    margin-top: 50px;
+}
+
+.more,
+.team,
+.history {
+    margin-top: 40px;
+}
+
+.moreinfo {
+    background-color: #F60E0EC7;
+    color: white;
+    /* Rectangle 14 */
+    width: 512px;
+    height: 618px;
+    background: rgba(247, 14, 14, 0.78);
+    background-blend-mode: darken;
+    padding: 50px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.sectiontxt {
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.sideimg {
+    width: 512px;
+    height: 618px;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.teamphoto {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 /* Style Home Section */
 #home{
   background: url('../assets/Home-Page.jpeg') no-repeat;
@@ -89,4 +175,5 @@ border-top: 1px solid gray;
 color: #fff;
 padding: 10px;
 }
+
 

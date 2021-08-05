@@ -128,3 +128,10 @@ body {
   padding: 15px;
   background-color: #fff;
 }
+/* Style container start running */
+#cont_running{
+  background-color: #ccc;
+ /* margin-top: -1.5em; */
+ padding: 70px;
+
+}

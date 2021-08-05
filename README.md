@@ -27,7 +27,9 @@ access this website using this link
 so far no bugs on the website
 
 # Screenshots of the site
-<img src=" ">
+<img src="./assets/homepage.png">
+<img src="./assets/screenshot2.png">
+<img src="./assets/footer.png">
 
 # LICENCE
 This website is under the <a href="https://choosealicense.com/licenses/mit/#">MIT Licence</a>

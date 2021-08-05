@@ -1,3 +1,5 @@
+/* common css starts here  */
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
     box-sizing: border-box;
@@ -92,6 +94,35 @@ body {
     }
 }
 
+#Contact {
+    background-color: #260631;
+    color: #fff;
+    padding: 20px;
+}
+
+.media {
+    display: flex;
+}
+
+.media ul {
+    list-style-type: none;
+}
+
+.media ul li {
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #260631;
+    border-top: 1px solid gray;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* common css ends here  */
+
 .activitiescol {
     flex: auto;
     padding: 10px;
@@ -176,30 +207,4 @@ li.list {
     align-items: center;
     justify-content: center;
     align-content: center;
-}
-
-#Contact {
-    background-color: #260631;
-    color: #fff;
-    padding: 20px;
-}
-
-.media {
-    display: flex;
-}
-
-.media ul {
-    list-style-type: none;
-}
-
-.media ul li {
-    float: left;
-    margin: 10px;
-}
-
-.footer {
-    background-color: #260631;
-    border-top: 1px solid gray;
-    color: #fff;
-    padding: 10px;
 }

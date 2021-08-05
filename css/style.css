@@ -89,3 +89,10 @@ body {
   position: relative;
   color: #fff;
 }
+#home h1{
+  font-size: 33px;
+}
+#home h1 p{
+  font-weight: bold;
+
+}
